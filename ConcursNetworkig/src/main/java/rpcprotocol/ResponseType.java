@@ -1,0 +1,6 @@
+package rpcprotocol;
+
+public enum ResponseType {
+    OK,ERROR,NEW_SCORE_ADD,LOGGED_IN,ARBITRU_GASIT,PROBE_GASITE,PARTICIPANTI_GASITI,PP_GASIT,
+
+}

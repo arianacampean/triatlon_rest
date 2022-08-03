@@ -1,0 +1,10 @@
+rootProject.name = 'triatlon'
+include 'ConcursModel'
+include 'ConcursPersistence'
+include 'ConcursClientFX'
+include 'ConcursNetworkig'
+include 'ConcursServer'
+include 'ConcursServices'
+include 'RestServices'
+include 'ReactApp'
+

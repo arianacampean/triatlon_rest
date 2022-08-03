@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="triatlon.controller.StartPageC">
+   <children>
+      <ListView fx:id="listView" layoutX="9.0" layoutY="92.0" prefHeight="252.0" prefWidth="349.0" />
+      <Label layoutX="26.0" layoutY="21.0" prefHeight="33.0" prefWidth="33.0" text="Buna, " />
+      <TextField fx:id="nume" layoutX="58.0" layoutY="25.0" onAction="#nume_arb" prefHeight="25.0" prefWidth="178.0" />
+      <Label layoutX="385.0" layoutY="25.0" prefHeight="25.0" prefWidth="34.0" text="Proba:" />
+      <TextField fx:id="proba" layoutX="425.0" layoutY="25.0" onAction="#nume_arb" />
+      <Label layoutX="110.0" layoutY="64.0" prefHeight="19.0" prefWidth="125.0" text="     Lista participanti" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Label>
+      <Button layoutX="437.0" layoutY="331.0" mnemonicParsing="false" onAction="#adauga_pp" text="Adauga rezultat" />
+      <Button layoutX="226.0" layoutY="359.0" mnemonicParsing="false" onAction="#raportt" prefHeight="25.0" prefWidth="100.0" text="Raport" />
+      <Button layoutX="43.0" layoutY="359.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="100.0" text="Logout" />
+      <Label layoutX="419.0" layoutY="182.0" text="Adaugare scor participant" />
+      <TextField fx:id="adauga_id" layoutX="413.0" layoutY="225.0" promptText="id" />
+      <TextField fx:id="adauga_scor" layoutX="413.0" layoutY="276.0" promptText="scor obtinut" />
+      <TextField fx:id="afis_puncte" layoutX="413.0" layoutY="123.0" />
+      <Label layoutX="408.0" layoutY="92.0" text="Id ul part fara puncte la proba" />
+   </children>
+</AnchorPane>

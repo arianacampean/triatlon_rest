@@ -1,0 +1,71 @@
+.ProbaApp{
+
+    display: table;
+    margin:20px;
+    align-items: center;
+    align-content: center;
+    padding-left: 50px;
+
+}
+
+.ProbaForm{
+    color: royalblue;
+
+}
+table.center {
+    margin-left:600px;
+    border: black 1px solid;
+    display: table-cell;
+
+}
+
+#lab{color: darkcyan}
+#lab2{color: darkcyan}
+
+th.aici{
+    color:  cadetblue;
+}
+td.tab{
+    border:0.2px black solid;
+    border-color: dimgrey;
+}
+#titlu{
+    color: cadetblue;
+    display: flex;
+    left:430px;
+    top:-10px;
+    position: absolute;
+
+}
+
+input.but{
+    color:  darkcyan;
+    background-color: #dee2e2;
+    border-color: black;
+}
+#sters{
+    color:  darkcyan;
+    background-color: #dee2e2;
+    border-color: black;
+}
+#ad{
+    color:  darkcyan;
+}
+
+form.formm{
+    display: table-cell;
+    margin-top:300px;
+    margin-left:500px;
+    left: 300px;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+form.form2{
+    display: table-cell;
+    margin-left:900px;
+    padding: 20px;
+}
+label.cv{
+    color: darkcyan
+}
